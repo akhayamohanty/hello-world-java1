@@ -9,16 +9,16 @@ trigger:
 variables:
 
   # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: '16fea82e-8448-4d12-b519-35ad515d36d5'
+  azureSubscription: '343c17eb-34b6-4481-92a2-a0a5a04bdd88'
 
   # Web app name
-  webAppName: 'CustomDemoWebApp'
+  webAppName: 'myclientwebapp1'
 
   # Environment name
   environmentName: 'CustomDemoWebApp'
 
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  vmImageName: 'vm-ss-agent'
 
 stages:
 - stage: Build
